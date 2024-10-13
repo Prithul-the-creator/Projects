@@ -2,5 +2,5 @@ All of the following code files are some fun projects I did in high school, some
 
 In order, here are the following descriptions
 
-1. A cold email bot that I used to reach out to professors instead of individually writing emails, saved me days of effort. Sent around 1000 emails in a few minutes and successfully got research opportunities
-2. A labeling tool that can take any audio and accurately segment it into different speakers 
+1. A [cold email bot](https://github.com/Prithul-the-creator/EmailBot/blob/main/send_emails.py) that I used to reach out to professors instead of individually writing emails, saved me days of effort. Sent around 1000 emails in a few minutes and successfully got research opportunities
+2. A [labeling tool](https://github.com/Prithul-the-creator/EmailBot/blob/main/send_emails.py) that can take any audio and accurately segment it into different speakers 
