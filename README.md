@@ -1,4 +1,4 @@
-All of the following code files are some light projects I did in high school, some of my more serious projects were either done in game engines or I don't have access to due to company rules but these projects were still pretty cool and I had a lot of fun doing them :)
+All of the following code files are some fun projects I did in high school, some of my more serious projects were either done in game engines or I don't have access to due to company rules but these projects were still pretty cool and I had a lot of fun doing them :)
 
 In order, here are the following descriptions
 
