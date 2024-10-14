@@ -36,24 +36,20 @@ def sentiment_analysis(text):
 GOOG.index = pd.to_datetime(GOOG.index)
 dataFiltered = GOOG.loc['2012-01-01':'2018-01-01']
 
-# Trading strategy class
+
 class MySmaStrategy(Strategy):
     api_key = 'YOUR_NEWSAPI_KEY'  # Replace with your actual NewsAPI key
     symbol = 'GOOG'  # Symbol for the stock you're trading
 
     def init(self):
         price = self.data.Close
-
-        # 10 day moving average
+        
         self.ma1 = pd.Series(self.I(SMA, price, 10)).dropna().values
 
-        # 20 day moving average
         self.ma2 = self.I(SMA, price, 20)
-
-        # RSI values calculated for the last 14 trading days
+        
         self.rsiValues = pd.Series(self.I(rsi, price, 14)).dropna().values
 
-        # Fetch the latest news and calculate the sentiment score
         articles = fetch_news(self.symbol, self.api_key)
         if articles:
             self.sentiment_score = sum([sentiment_analysis(article) for article in articles]) / len(articles)
