@@ -1,4 +1,4 @@
-All of the following code files are some fun projects I did in high school :)
+All of the following code files are some fun projects I did :)
 
 Here are the following descriptions:
 
