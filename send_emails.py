@@ -5,7 +5,6 @@ from email.mime.application import MIMEApplication
 import os
 import time
 
-
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
 smtp_user = 'example_email@gmail.com'
@@ -63,6 +62,7 @@ for participant in email_list:
     time.sleep(5)
     
 print(count)
+
 
 
 
