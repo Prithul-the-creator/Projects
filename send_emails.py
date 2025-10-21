@@ -12,6 +12,7 @@ smtp_user = 'example_email@gmail.com'
 smtp_password = 'Enter Here'
 
 # Email content
+
 subject = "Research Opportunity Request"
 body = """
 Greetings Dr. {name},
@@ -61,4 +62,5 @@ for participant in email_list:
     time.sleep(5)
     
 print(count)
+
 
