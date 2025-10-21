@@ -48,6 +48,7 @@ def send_email(to_email, to_name, attachments=None):
         print(f"Email sent to {to_name} ({to_email})")
 
 #examples
+
 email_list = [
     {'name': 'Harry Potter', 'email': 'harry.potter@gmail.com', 'attachments': [r"Resume Filepath", r"Transcript Filepath"]},
     {'name': 'Marry Poppins', 'email': 'marry.poppins@gmail.com', 'attachments': [r"Resume Filepath", r"Transcript Filepath"]},
@@ -62,5 +63,6 @@ for participant in email_list:
     time.sleep(5)
     
 print(count)
+
 
 
