@@ -153,7 +153,7 @@ def extract_python_code(content):
         return None
 
 
-class colors:  # You may need to change color settings
+class colors:
     RED = "\033[31m"
     ENDC = "\033[m"
     GREEN = "\033[32m"
